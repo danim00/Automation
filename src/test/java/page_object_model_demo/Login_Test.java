@@ -29,6 +29,7 @@ public class Login_Test {
 				 Loginpg.click_login_Btn();
 				 //Thread.sleep(3000);
 				 
+				 //Add new user
 				 Add_newUser obj2 = new Add_newUser(driver);
 				 obj2.clickTo_user_management();
 				 //Thread.sleep(3000);
@@ -53,6 +54,7 @@ public class Login_Test {
 				obj2.clickTo_enable();
 				obj2.clickTo_submit();
 				Thread.sleep(3000);
+				//Add to club
 				Add_toclub obj3=new Add_toclub(driver);
 				obj3.clickTo_clubmembership();
 				obj3.clickTo_plans();

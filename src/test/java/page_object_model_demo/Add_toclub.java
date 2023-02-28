@@ -34,7 +34,7 @@ public class Add_toclub {
 	@FindBy(xpath="//*[@id='root']/div[1]/div[2]/div[3]/div/div[2]/form/div[2]/div/div/div[2]/div/div")
 	WebElement validity;
 	
-	@FindBy(xpath="//div[@id='react-select-9-option-2']")
+	@FindBy(xpath="/html/body/div[1]/div[1]/div[2]/div[3]/div/div[2]/form/div[2]/div/div/div[2]/div/div[2]/div/div[3]")
 	WebElement halfyearly;
 	
 	@FindBy(xpath="//*[@id='price']")
@@ -70,7 +70,7 @@ public class Add_toclub {
 	}
 	public void clickTo_plan_title()
 	{
-		plan_title.sendKeys("1Xbet");				
+		plan_title.sendKeys("Ultasupereme");				
 	}
 	public void clickTo_validity()
 	{
